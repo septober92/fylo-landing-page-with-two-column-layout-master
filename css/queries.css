@@ -1,0 +1,176 @@
+@media (hover: hover) {
+  .btn:hover {
+    background-color: hsl(224, 87%, 69%);
+  }
+
+  .fylo__header--nav-link:hover {
+    color: hsl(224, 87%, 69%);
+  }
+
+  .fylo__how-it-works--link:hover {
+    opacity: 0.7;
+  }
+
+  .fylo__footer--nav-link:hover {
+    color: hsl(224, 87%, 69%);
+  }
+}
+
+/* Mobile - iPhone 12/13/14 Pro Max */
+
+@media (max-width: 26.75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .centered-container {
+    padding: 0 3.8rem;
+  }
+
+  .fylo__header {
+    padding: 3.8rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .fylo__header--logo {
+    width: 9rem;
+  }
+
+  .fylo__header--nav-box {
+    font-size: 1.4rem;
+    gap: 3rem;
+  }
+
+  .section-fylo__hero {
+    text-align: center;
+  }
+
+  .grid--hero-2-cols {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+
+  .fylo__hero--introductory-box .heading-primary {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .fylo__hero--description {
+    line-height: 1.5;
+    margin-bottom: 4.2rem;
+  }
+
+  .fylo__hero--image-box {
+    grid-row: 1;
+  }
+
+  .fylo__hero--cta-form {
+    flex-direction: column;
+  }
+
+  .fylo__hero--cta-form input {
+    width: 100%;
+  }
+
+  .section-fylo__how-it-works {
+    background: url(../images/bg-curve-mobile.svg) top/100% no-repeat;
+    padding-top: 6.7rem;
+  }
+
+  .fylo__how-it-works {
+    padding-bottom: 9.6rem;
+    padding-top: 5rem;
+  }
+
+  .grid--hiw-2-cols {
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+  }
+
+  .fylo__how-it-works--img-box {
+    grid-row: 1;
+  }
+
+  .fylo__how-it-works--introductory-box .heading-primary {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .fylo__how-it-works--description-box {
+    max-width: 100%;
+    font-size: 1.6;
+    line-height: 1.5;
+  }
+
+  .fylo__how-it-works--link {
+    margin: 0 auto;
+  }
+
+  .fylo__how-it-works--testimonial-card {
+    max-width: 100%;
+    padding: 2.4rem 1.5rem 2.4rem 3.4rem;
+    margin: 0 2.5rem;
+  }
+
+  .fylo__how-it-works--testimonial {
+    font-size: 1.22rem;
+  }
+
+  .grid--2-cols-ea {
+    grid-template-columns: 1fr;
+    row-gap: 3.8rem;
+  }
+
+  .section-fylo__early-access {
+    text-align: center;
+  }
+
+  .fylo__early-access--text-box .heading-secondary {
+    font-size: 2.5rem;
+
+    margin-bottom: 2.8rem;
+  }
+
+  .fylo__early-access--text {
+    font-size: 1.9rem;
+    line-height: 1.6;
+  }
+
+  .fylo__early-access--cta-form input {
+    width: 100%;
+  }
+
+  .grid--footer-4-cols {
+    grid-template-columns: 1fr;
+    row-gap: 6.4rem;
+  }
+
+  .fylo__footer--logo-box {
+    margin-bottom: 4rem;
+  }
+
+  .fylo__footer--socials-col ul {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 24.375em) {
+  html {
+    font-size: 53%;
+  }
+
+  .centered-container {
+    padding: 0 3.2rem;
+  }
+
+  .fylo__header {
+    padding: 3.2rem;
+  }
+
+  .section-fylo__how-it-works {
+    padding-top: 6rem;
+  }
+}

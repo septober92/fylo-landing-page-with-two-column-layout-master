@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 *,
 *::after,
@@ -6,6 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
 }
 
 :root {
@@ -14,8 +16,12 @@
   --desaturated-blue: hsl(238, 22%, 44%);
 
   /* Colors - Accent */
-  --light-grayish-blue: hsl(240, 75%, 98%);
-  --light-gray: hsl(0, 0%, 75%);
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+
+  /* Colors - Neutral */
+  --light-grayish-blue: #f8f8fe;
+  --light-gray: rgb(191, 191, 191);
 
   /* Typography */
   --fonts-nav-hdg-cta: 'Raleway', sans-serif;
@@ -28,7 +34,7 @@ html {
 
 body {
   font-family: var(--fonts-body);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1;
   color: var(--very-dark-blue);
 }
@@ -41,17 +47,44 @@ ul {
   list-style: none;
 }
 
+p {
+  /* letter-spacing: 0.5px; */
+}
+
 .centered-container {
-  padding: 0 6.4rem;
+  max-width: 144rem;
+  padding: 0 7.2rem;
   margin: 0 auto;
 }
 
 .heading-primary,
-.fylo__header--nav,
+.heading-secondary,
+.fylo__header--nav-box,
 .fylo__hero--cta-form {
   font-family: var(--fonts-nav-hdg-cta);
 }
 
 .heading-primary {
+  font-size: 4.1rem;
   font-weight: 700;
+  line-height: 1.5;
+}
+
+.heading-secondary {
+  font-size: 3.3rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--bright-blue);
+  font-family: var(--fonts-nav-hdg-cta);
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 0.3rem 1.2rem rgba(0, 0, 0, 0.25);
 }
